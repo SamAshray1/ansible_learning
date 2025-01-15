@@ -27,6 +27,6 @@
 
     # Step 4: Run the JAR file
     - name: Run the application JAR file
-      shell: "java -jar /home/ubuntu/app/target/bible-project.jar &"
+      shell: "java -jar /home/ubuntu/app/target/bible-project-0.0.1-SNAPSHOT.jar &"
       async: 10
       poll: 0
